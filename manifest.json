@@ -3,7 +3,7 @@
   "manifest_version": 2,
   "name": "DB Fahrtrichtung",
   "version": "1.0",
-  "homepage_url": "https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples#borderify",
+  "homepage_url": "https://github.com/computerd36/DB-Fahrtrichtung",
   "icons": {
     "48": "icons/dbfahrtrichtung.svg"
   },
