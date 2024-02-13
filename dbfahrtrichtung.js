@@ -50,7 +50,6 @@ function addZugnummerLink(zugnummerElement, fahrt, jahr) {
             iconElement.src = chrome.runtime.getURL('icons/dbfahrtrichtung.svg');
             iconElement.style.width = "20px";
             iconElement.style.height = "20px";
-            iconElement.style.filter = "invert(1)";
             iconElement.style.userSelect = "none";
 
             headingContainer.appendChild(iconElement);
@@ -61,7 +60,7 @@ function addZugnummerLink(zugnummerElement, fahrt, jahr) {
             linkElement.href = searchUrl;
             linkElement.textContent = `Fahrtrichtung von ${zugnummerText}`;
             linkElement.target = "_blank";
-            linkElement.style.color = "red";
+            linkElement.style.color = "#ec0016";
             linkElement.style.fontWeight = "bold";
             linkElement.style.userSelect = "none";
 
