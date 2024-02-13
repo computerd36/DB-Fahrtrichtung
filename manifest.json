@@ -1,0 +1,19 @@
+{
+  "description": "DB Fahrtrichtung erweitert den Sitzplatzreservierungsprozess auf bahn.de um einen direkten Link zur Wagenreihung auf fernbahn.de, wodurch Nutzer einfach die Fahrtrichtung ihres Zuges ermitteln können.",
+  "manifest_version": 2,
+  "name": "DB Fahrtrichtung",
+  "version": "1.0",
+  "homepage_url": "https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples#borderify",
+  "icons": {
+    "48": "icons/dbfahrtrichtung.svg"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.bahn.de/buchung/fahrplan/*"],
+      "js": ["dbfahrtrichtung.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "permissions": ["activeTab"]
+}
