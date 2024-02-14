@@ -3,6 +3,7 @@ DB Fahrtrichtung ist ein Open-Source Firefox Add-on, das ein gängiges Problem f
 
 ## Installation
 Nach dem die Extension über die Firefox-Addon-Seite installiert wurde, ist sie ohne Neustart einsatzbereit.
+[Hier installieren](https://addons.mozilla.org/de/firefox/addon/db-fahrtrichtung/)
 
 ## Funktion
 [Anleitung zur Nutzung](https://cd36.notion.site/DB-Fahrtrichtung-Anleitung-Hilfe-und-Mitwirken-fa9c11930c104df481ae5f6d7d4d3d36)
